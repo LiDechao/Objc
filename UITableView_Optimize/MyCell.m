@@ -16,6 +16,7 @@
         [self addSubview:self.titleLbl];
         
     }
+    NSLog("test");
     return self;
 }
 
