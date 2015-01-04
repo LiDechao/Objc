@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F42302831A4A744F0050B850 /* ThirdView.m in Sources */ = {isa = PBXBuildFile; fileRef = F42302821A4A744F0050B850 /* ThirdView.m */; };
 		F47DADF71A47C479005B9054 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F47DADF61A47C479005B9054 /* main.m */; };
 		F47DADFA1A47C479005B9054 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F47DADF91A47C479005B9054 /* AppDelegate.m */; };
 		F47DADFD1A47C479005B9054 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F47DADFC1A47C479005B9054 /* ViewController.m */; };
@@ -20,6 +19,7 @@
 		F47DAE2D1A4818ED005B9054 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47DAE2C1A4818ED005B9054 /* Foundation.framework */; };
 		F47DAE331A481E70005B9054 /* ArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F47DAE321A481E70005B9054 /* ArrayDataSource.m */; };
 		F4A773251A4971570091E80E /* MyCell+Configure.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A773241A4971570091E80E /* MyCell+Configure.m */; };
+		F4F11E561A59394D00DACA31 /* ThirdView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F11E551A59394D00DACA31 /* ThirdView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,8 +33,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F42302811A4A744F0050B850 /* ThirdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdView.h; sourceTree = "<group>"; };
-		F42302821A4A744F0050B850 /* ThirdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdView.m; sourceTree = "<group>"; };
 		F47DADF11A47C479005B9054 /* UITableView_Optimize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableView_Optimize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47DADF51A47C479005B9054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F47DADF61A47C479005B9054 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -57,6 +55,8 @@
 		F47DAE351A481EE1005B9054 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
 		F4A773231A4971570091E80E /* MyCell+Configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MyCell+Configure.h"; sourceTree = "<group>"; };
 		F4A773241A4971570091E80E /* MyCell+Configure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MyCell+Configure.m"; sourceTree = "<group>"; };
+		F4F11E541A59394D00DACA31 /* ThirdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdView.h; sourceTree = "<group>"; };
+		F4F11E551A59394D00DACA31 /* ThirdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +82,8 @@
 		F47DADE81A47C479005B9054 = {
 			isa = PBXGroup;
 			children = (
-				F42302811A4A744F0050B850 /* ThirdView.h */,
-				F42302821A4A744F0050B850 /* ThirdView.m */,
+				F4F11E541A59394D00DACA31 /* ThirdView.h */,
+				F4F11E551A59394D00DACA31 /* ThirdView.m */,
 				F47DAE311A481E70005B9054 /* ArrayDataSource.h */,
 				F47DAE321A481E70005B9054 /* ArrayDataSource.m */,
 				F47DAE1A1A47C636005B9054 /* MyCell.h */,
@@ -262,7 +262,7 @@
 				F47DAE1C1A47C636005B9054 /* MyCell.m in Sources */,
 				F47DADFA1A47C479005B9054 /* AppDelegate.m in Sources */,
 				F47DAE331A481E70005B9054 /* ArrayDataSource.m in Sources */,
-				F42302831A4A744F0050B850 /* ThirdView.m in Sources */,
+				F4F11E561A59394D00DACA31 /* ThirdView.m in Sources */,
 				F47DADF71A47C479005B9054 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
